@@ -98,7 +98,7 @@ public String Pelea(Personaje personaje2,int distancia) {
 	personaje2.vida= (personaje2.vida-(Ataque1-defensa2));
 	this.vida=(this.vida-(Ataque2-defensa));
 
-	if(vida<=0) {
+	if(vida<=-1) {
 		texto="Personaje 1 muerto";
 	}
 	if(personaje2.vida<=0) {
